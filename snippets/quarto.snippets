@@ -1,0 +1,16 @@
+snippet # "Autocomplete section tag" b
+  # ${1:} {#sec-${1/\(\w\+\)[[:punct:] ]\+/\L\1-/g}}
+
+snippet ## "Autocomplete section tag" b
+  ## ${1:} {#sec-${1/\(\w\+\)[[:punct:] ]\+/\L\1-/g}}
+
+snippet ### "Autocomplete section tag" b
+  ### ${1:} {#sec-${1/\(\w\+\)[[:punct:] ]\+/\L\1-/g}}
+
+snippet #### "Autocomplete section tag" b
+  #### ${1:} {#sec-${1/\(\w\+\)[[:punct:] ]\+/\L\1-/g}}
+
+snippet "r code block" b
+  \`\`\`{r}
+  ${1:}
+  \`\`\`
